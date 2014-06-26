@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4D7F797195C9E5000F305E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D7F796195C9E5000F305E2 /* Foundation.framework */; };
+		D4D7F799195C9E5000F305E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D7F798195C9E5000F305E2 /* CoreGraphics.framework */; };
+		D4D7F79B195C9E5000F305E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D7F79A195C9E5000F305E2 /* UIKit.framework */; };
+		D4D7F7A1195C9E5000F305E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4D7F79F195C9E5000F305E2 /* InfoPlist.strings */; };
+		D4D7F7A3195C9E5000F305E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D7F7A2195C9E5000F305E2 /* main.m */; };
+		D4D7F7A7195C9E5100F305E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D7F7A6195C9E5100F305E2 /* AppDelegate.m */; };
+		D4D7F7A9195C9E5100F305E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D7F7A8195C9E5100F305E2 /* Images.xcassets */; };
+		D4D7F7B0195C9E5100F305E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D7F7AF195C9E5100F305E2 /* XCTest.framework */; };
+		D4D7F7B1195C9E5100F305E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D7F796195C9E5000F305E2 /* Foundation.framework */; };
+		D4D7F7B2195C9E5100F305E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D7F79A195C9E5000F305E2 /* UIKit.framework */; };
+		D4D7F7BA195C9E5100F305E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4D7F7B8195C9E5100F305E2 /* InfoPlist.strings */; };
+		D4D7F7BC195C9E5100F305E2 /* DMResizableScrollDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D7F7BB195C9E5100F305E2 /* DMResizableScrollDemoTests.m */; };
+		D4D7F7C8195C9E9700F305E2 /* SomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D7F7C6195C9E9700F305E2 /* SomeViewController.m */; };
+		D4D7F7C9195C9E9700F305E2 /* SomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4D7F7C7195C9E9700F305E2 /* SomeViewController.xib */; };
+		D4D7F7CB195C9F3F00F305E2 /* ofertas.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7F7CA195C9F3F00F305E2 /* ofertas.png */; };
+		D4D7F7D1195C9FF000F305E2 /* DMResizableScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D7F7CE195C9FF000F305E2 /* DMResizableScroll.m */; };
+		D4D7F7D2195C9FF000F305E2 /* DMResizableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D7F7D0195C9FF000F305E2 /* DMResizableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4D7F7B3195C9E5100F305E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D7F78B195C9E5000F305E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D7F792195C9E5000F305E2;
+			remoteInfo = DMResizableScrollDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4D7F793195C9E5000F305E2 /* DMResizableScrollDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMResizableScrollDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D7F796195C9E5000F305E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4D7F798195C9E5000F305E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4D7F79A195C9E5000F305E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4D7F79E195C9E5000F305E2 /* DMResizableScrollDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMResizableScrollDemo-Info.plist"; sourceTree = "<group>"; };
+		D4D7F7A0195C9E5000F305E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4D7F7A2195C9E5000F305E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4D7F7A4195C9E5000F305E2 /* DMResizableScrollDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMResizableScrollDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D4D7F7A5195C9E5000F305E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4D7F7A6195C9E5100F305E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4D7F7A8195C9E5100F305E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4D7F7AE195C9E5100F305E2 /* DMResizableScrollDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMResizableScrollDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D7F7AF195C9E5100F305E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D4D7F7B7195C9E5100F305E2 /* DMResizableScrollDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMResizableScrollDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D4D7F7B9195C9E5100F305E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4D7F7BB195C9E5100F305E2 /* DMResizableScrollDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMResizableScrollDemoTests.m; sourceTree = "<group>"; };
+		D4D7F7C5195C9E9700F305E2 /* SomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeViewController.h; sourceTree = "<group>"; };
+		D4D7F7C6195C9E9700F305E2 /* SomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeViewController.m; sourceTree = "<group>"; };
+		D4D7F7C7195C9E9700F305E2 /* SomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SomeViewController.xib; sourceTree = "<group>"; };
+		D4D7F7CA195C9F3F00F305E2 /* ofertas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ofertas.png; sourceTree = "<group>"; };
+		D4D7F7CD195C9FF000F305E2 /* DMResizableScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMResizableScroll.h; sourceTree = "<group>"; };
+		D4D7F7CE195C9FF000F305E2 /* DMResizableScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMResizableScroll.m; sourceTree = "<group>"; };
+		D4D7F7CF195C9FF000F305E2 /* DMResizableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMResizableView.h; sourceTree = "<group>"; };
+		D4D7F7D0195C9FF000F305E2 /* DMResizableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMResizableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4D7F790195C9E5000F305E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D7F799195C9E5000F305E2 /* CoreGraphics.framework in Frameworks */,
+				D4D7F79B195C9E5000F305E2 /* UIKit.framework in Frameworks */,
+				D4D7F797195C9E5000F305E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D7F7AB195C9E5100F305E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D7F7B0195C9E5100F305E2 /* XCTest.framework in Frameworks */,
+				D4D7F7B2195C9E5100F305E2 /* UIKit.framework in Frameworks */,
+				D4D7F7B1195C9E5100F305E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4D7F78A195C9E5000F305E2 = {
+			isa = PBXGroup;
+			children = (
+				D4D7F79C195C9E5000F305E2 /* DMResizableScrollDemo */,
+				D4D7F7B5195C9E5100F305E2 /* DMResizableScrollDemoTests */,
+				D4D7F795195C9E5000F305E2 /* Frameworks */,
+				D4D7F794195C9E5000F305E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4D7F794195C9E5000F305E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7F793195C9E5000F305E2 /* DMResizableScrollDemo.app */,
+				D4D7F7AE195C9E5100F305E2 /* DMResizableScrollDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4D7F795195C9E5000F305E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7F7CC195C9FC300F305E2 /* DMResizableScroll */,
+				D4D7F796195C9E5000F305E2 /* Foundation.framework */,
+				D4D7F798195C9E5000F305E2 /* CoreGraphics.framework */,
+				D4D7F79A195C9E5000F305E2 /* UIKit.framework */,
+				D4D7F7AF195C9E5100F305E2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4D7F79C195C9E5000F305E2 /* DMResizableScrollDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7F7A5195C9E5000F305E2 /* AppDelegate.h */,
+				D4D7F7A6195C9E5100F305E2 /* AppDelegate.m */,
+				D4D7F7C5195C9E9700F305E2 /* SomeViewController.h */,
+				D4D7F7C6195C9E9700F305E2 /* SomeViewController.m */,
+				D4D7F7C7195C9E9700F305E2 /* SomeViewController.xib */,
+				D4D7F7A8195C9E5100F305E2 /* Images.xcassets */,
+				D4D7F79D195C9E5000F305E2 /* Supporting Files */,
+			);
+			path = DMResizableScrollDemo;
+			sourceTree = "<group>";
+		};
+		D4D7F79D195C9E5000F305E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7F7CA195C9F3F00F305E2 /* ofertas.png */,
+				D4D7F79E195C9E5000F305E2 /* DMResizableScrollDemo-Info.plist */,
+				D4D7F79F195C9E5000F305E2 /* InfoPlist.strings */,
+				D4D7F7A2195C9E5000F305E2 /* main.m */,
+				D4D7F7A4195C9E5000F305E2 /* DMResizableScrollDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4D7F7B5195C9E5100F305E2 /* DMResizableScrollDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7F7BB195C9E5100F305E2 /* DMResizableScrollDemoTests.m */,
+				D4D7F7B6195C9E5100F305E2 /* Supporting Files */,
+			);
+			path = DMResizableScrollDemoTests;
+			sourceTree = "<group>";
+		};
+		D4D7F7B6195C9E5100F305E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7F7B7195C9E5100F305E2 /* DMResizableScrollDemoTests-Info.plist */,
+				D4D7F7B8195C9E5100F305E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4D7F7CC195C9FC300F305E2 /* DMResizableScroll */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7F7CD195C9FF000F305E2 /* DMResizableScroll.h */,
+				D4D7F7CE195C9FF000F305E2 /* DMResizableScroll.m */,
+				D4D7F7CF195C9FF000F305E2 /* DMResizableView.h */,
+				D4D7F7D0195C9FF000F305E2 /* DMResizableView.m */,
+			);
+			name = DMResizableScroll;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4D7F792195C9E5000F305E2 /* DMResizableScrollDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D7F7BF195C9E5100F305E2 /* Build configuration list for PBXNativeTarget "DMResizableScrollDemo" */;
+			buildPhases = (
+				D4D7F78F195C9E5000F305E2 /* Sources */,
+				D4D7F790195C9E5000F305E2 /* Frameworks */,
+				D4D7F791195C9E5000F305E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMResizableScrollDemo;
+			productName = DMResizableScrollDemo;
+			productReference = D4D7F793195C9E5000F305E2 /* DMResizableScrollDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D7F7AD195C9E5100F305E2 /* DMResizableScrollDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D7F7C2195C9E5100F305E2 /* Build configuration list for PBXNativeTarget "DMResizableScrollDemoTests" */;
+			buildPhases = (
+				D4D7F7AA195C9E5100F305E2 /* Sources */,
+				D4D7F7AB195C9E5100F305E2 /* Frameworks */,
+				D4D7F7AC195C9E5100F305E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D7F7B4195C9E5100F305E2 /* PBXTargetDependency */,
+			);
+			name = DMResizableScrollDemoTests;
+			productName = DMResizableScrollDemoTests;
+			productReference = D4D7F7AE195C9E5100F305E2 /* DMResizableScrollDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4D7F78B195C9E5000F305E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Diego Martinez";
+				TargetAttributes = {
+					D4D7F7AD195C9E5100F305E2 = {
+						TestTargetID = D4D7F792195C9E5000F305E2;
+					};
+				};
+			};
+			buildConfigurationList = D4D7F78E195C9E5000F305E2 /* Build configuration list for PBXProject "DMResizableScrollDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4D7F78A195C9E5000F305E2;
+			productRefGroup = D4D7F794195C9E5000F305E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4D7F792195C9E5000F305E2 /* DMResizableScrollDemo */,
+				D4D7F7AD195C9E5100F305E2 /* DMResizableScrollDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4D7F791195C9E5000F305E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D7F7A1195C9E5000F305E2 /* InfoPlist.strings in Resources */,
+				D4D7F7C9195C9E9700F305E2 /* SomeViewController.xib in Resources */,
+				D4D7F7CB195C9F3F00F305E2 /* ofertas.png in Resources */,
+				D4D7F7A9195C9E5100F305E2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D7F7AC195C9E5100F305E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D7F7BA195C9E5100F305E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4D7F78F195C9E5000F305E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D7F7C8195C9E9700F305E2 /* SomeViewController.m in Sources */,
+				D4D7F7A7195C9E5100F305E2 /* AppDelegate.m in Sources */,
+				D4D7F7A3195C9E5000F305E2 /* main.m in Sources */,
+				D4D7F7D2195C9FF000F305E2 /* DMResizableView.m in Sources */,
+				D4D7F7D1195C9FF000F305E2 /* DMResizableScroll.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D7F7AA195C9E5100F305E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D7F7BC195C9E5100F305E2 /* DMResizableScrollDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4D7F7B4195C9E5100F305E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D7F792195C9E5000F305E2 /* DMResizableScrollDemo */;
+			targetProxy = D4D7F7B3195C9E5100F305E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4D7F79F195C9E5000F305E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D7F7A0195C9E5000F305E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4D7F7B8195C9E5100F305E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D7F7B9195C9E5100F305E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4D7F7BD195C9E5100F305E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4D7F7BE195C9E5100F305E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D7F7C0195C9E5100F305E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMResizableScrollDemo/DMResizableScrollDemo-Prefix.pch";
+				INFOPLIST_FILE = "DMResizableScrollDemo/DMResizableScrollDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4D7F7C1195C9E5100F305E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMResizableScrollDemo/DMResizableScrollDemo-Prefix.pch";
+				INFOPLIST_FILE = "DMResizableScrollDemo/DMResizableScrollDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4D7F7C3195C9E5100F305E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DMResizableScrollDemo.app/DMResizableScrollDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMResizableScrollDemo/DMResizableScrollDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DMResizableScrollDemoTests/DMResizableScrollDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D4D7F7C4195C9E5100F305E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DMResizableScrollDemo.app/DMResizableScrollDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMResizableScrollDemo/DMResizableScrollDemo-Prefix.pch";
+				INFOPLIST_FILE = "DMResizableScrollDemoTests/DMResizableScrollDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4D7F78E195C9E5000F305E2 /* Build configuration list for PBXProject "DMResizableScrollDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D7F7BD195C9E5100F305E2 /* Debug */,
+				D4D7F7BE195C9E5100F305E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D7F7BF195C9E5100F305E2 /* Build configuration list for PBXNativeTarget "DMResizableScrollDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D7F7C0195C9E5100F305E2 /* Debug */,
+				D4D7F7C1195C9E5100F305E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4D7F7C2195C9E5100F305E2 /* Build configuration list for PBXNativeTarget "DMResizableScrollDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D7F7C3195C9E5100F305E2 /* Debug */,
+				D4D7F7C4195C9E5100F305E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4D7F78B195C9E5000F305E2 /* Project object */;
+}
