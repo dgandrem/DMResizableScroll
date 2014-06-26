@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Diego Martinez. All rights reserved.
 //
 
-#import "DMResizableScroll"
+#import "DMResizableScroll.h"
 #import "DMResizableView.h"
 #import <QuartzCore/QuartzCore.h>
 
