@@ -182,9 +182,10 @@
     CGFloat slideFactor = 0.05 * slideMult;
  
     CGRect  originalFrame   = sender.view.frame;
+    CGFloat x               = slideFactor * velocity.x +originalFrame.origin.x;
     CGFloat y               = slideFactor * velocity.y +originalFrame.origin.y;
 
-    finalFrame.origin.x     = 0;
+    finalFrame.origin.x     = MIN(MAX(_endPoint.x,x), _startPoint.x);
     finalFrame.origin.y     = MIN(MAX(_endPoint.y, y), _startPoint.y);
     finalFrame.size.width   = sender.view.frame.size.width;
     finalFrame.size.height  = (originalFrame.origin.y - finalFrame.origin.y) + originalFrame.size.height;
